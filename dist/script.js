@@ -518,9 +518,8 @@ Object(_lib_lib__WEBPACK_IMPORTED_MODULE_0__["default"])('div').click(function (
 // console.log($('.some').closest('.findmfe'));
 // console.log($('.more').eq(0).siblings());
 // console.log($('button').html('Hello'));
-
-Object(_lib_lib__WEBPACK_IMPORTED_MODULE_0__["default"])('.findme').fadeOut(1800);
-Object(_lib_lib__WEBPACK_IMPORTED_MODULE_0__["default"])('button').fadeIn(1800);
+// $('.findme').fadeOut(1800);
+// $('button').fadeIn(1800);
 
 /***/ })
 

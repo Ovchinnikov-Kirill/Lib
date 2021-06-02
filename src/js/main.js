@@ -15,5 +15,5 @@ $('div').click(function() {
 
 // console.log($('button').html('Hello'));
 
-$('.findme').fadeOut(1800);
-$('button').fadeIn(1800);
+// $('.findme').fadeOut(1800);
+// $('button').fadeIn(1800);
