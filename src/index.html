@@ -15,9 +15,11 @@
     <button class="btn btn-dark">Click me</button>
     <button class="btn btn-danger">Click me</button>
 
-    <div></div>
+    
 
-    <!--dropdown-->
+   <div class="container">
+
+        <!--dropdown-->
     <div class="dropdown">
         <button class="btn btn-primary dropdown-toggle" id="dropdownMenuButton">dropdown button</button>  
         <div class="dropdown-menu" data-toggle-id="dropdownMenuButton">
@@ -26,6 +28,50 @@
             <a href="#" class="dropdown-item">Action #3</a>
         </div>  
     </div>
+
+    <!-- card -->
+   <div class="goods d-flex f-space-around">
+    <div class="card">
+        <img class="card-img" src="https://live-production.wcms.abc-cdn.net.au/866ee6a08734359e49a462c4ab69a2fd?impolicy=wcms_crop_resize&cropH=2001&cropW=3000&xPos=0&yPos=0&width=862&height=575" alt="photo">
+        <div class="card-body">
+            <div class="car-title">Cart title</div>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Link to</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img class="card-img" src="https://live-production.wcms.abc-cdn.net.au/866ee6a08734359e49a462c4ab69a2fd?impolicy=wcms_crop_resize&cropH=2001&cropW=3000&xPos=0&yPos=0&width=862&height=575" alt="photo">
+        <div class="card-body">
+            <div class="car-title">Cart title #2</div>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Link to</a>
+        </div>
+    </div>
+   </div>
+
+   <!-- modal -->
+   <div class="modal" id="exampleModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-close>
+                    <span>&times;</span>
+                </button>
+                <div class="modal-header">
+                    <div class="modal-title">Modal title</div>
+                    <div class="modal-body">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat velit inventore laborum. Commodi doloribus eum ab beatae ipsum molestiae nisi. Atque fugit placeat deleniti id, laudantium quis dignissimos sapiente quas.
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" data-close>Close</button>
+                        <button class="btn btn-success">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+
+   </div>
     
     
     <script src='script.js'></script>
